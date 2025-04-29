@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -6,7 +7,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx,js,jsx}",
 	],
 	prefix: "",
 	theme: {
@@ -24,6 +25,14 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				faculty: {
+					DEFAULT: '#3b82f6', // Blue
+					light: '#bfdbfe',
+				},
+				student: {
+					DEFAULT: '#10b981', // Green
+					light: '#d1fae5',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
