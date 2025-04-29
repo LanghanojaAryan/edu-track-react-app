@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -7,7 +8,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 import { DataProvider } from "./contexts/DataContext";
 
 // Auth pages
-import Login from "./pages/Login";
+import Login from "./pages/Login.jsx";
 
 // Faculty pages
 import FacultyDashboard from "./pages/faculty/Dashboard";
