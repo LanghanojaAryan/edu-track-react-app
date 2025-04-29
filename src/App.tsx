@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -19,12 +18,12 @@ import CreateAssignment from "./pages/faculty/CreateAssignment";
 import ManageAssignments from "./pages/faculty/ManageAssignments";
 
 // Student pages
-import StudentDashboard from "./pages/student/Dashboard";
-import BrowseCourses from "./pages/student/BrowseCourses";
-import MyCourses from "./pages/student/MyCourses";
-import StudentCourseDetails from "./pages/student/CourseDetails";
-import AssignmentDetails from "./pages/student/AssignmentDetails";
-import Assignments from "./pages/student/Assignments";
+import StudentDashboard from "./pages/student/Dashboard.jsx";
+import BrowseCourses from "./pages/student/BrowseCourses.jsx";
+import MyCourses from "./pages/student/MyCourses.jsx";
+import StudentCourseDetails from "./pages/student/CourseDetails.jsx";
+import AssignmentDetails from "./pages/student/AssignmentDetails.jsx";
+import Assignments from "./pages/student/Assignments.jsx";
 
 // Other pages
 import NotFound from "./pages/NotFound";
